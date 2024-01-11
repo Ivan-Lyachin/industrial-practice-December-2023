@@ -1,0 +1,235 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container{
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+header{
+
+}
+.header__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    color:black;
+    font-weight: 500;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgba(172, 172, 172, 0.534);
+    height: 60px;
+
+}
+.header__phone{
+    margin-left: 10%;
+}
+.header__email{
+    margin-right: 10%;
+}
+.header__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.messenger2{
+    margin-left: 5px;
+}
+.messenger3 {
+    margin-left: 5px;
+}
+.block1{
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog1{
+    width: 25%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.catalog1__list__item{
+    height: 55px;
+    border: 1.5px solid rgba(172, 172, 172, 0.37);
+    line-height: 55px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.catalog__img{
+    padding-right: 10px;
+}
+.catalog2 {
+    width: 75%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: -41px;
+}
+.catalog2__list__item {
+    height: 55px;
+    width: 100%;
+    border: 1.5px solid rgba(172, 172, 172, 0.37);
+    line-height: 55px;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+.frame1{
+    width: 70%;
+    margin-left: 27.5%;
+    margin-top: -472px;
+}
+.block2{
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 12.7%;
+    padding: 0 10px;
+}
+.block3{
+background-color: #012356;
+height: 400px;
+width: 101%;
+margin-left: -10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.block3__text1{
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+}
+.block3__text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: white;
+    padding-left: 12%;
+}
+.block3__text3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFFCC;
+    padding-left: 22%;
+}
+.block3__text4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFFCC;
+    padding-left: 26%;
+}
+.block3__button{
+}
+.block4{
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 12.7%;
+    padding: 0 10px;
+}
+.block5 {
+    max-width: 1460px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 12.7%;
+    padding: 0 10px;
+}
+.news{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: black;
+}
+.block5__news{
+    margin-right: 30px;
+}
+footer{
+    max-width: 1920px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding: 0 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.555);
+}
+.footer__case{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+    height: 350px;
+    max-width: 1920px;
+}
+.footer__upcase{
+    display: flex;
+    margin-left: 12.7%;
+
+}
+.footer__logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer__logo1{
+    margin-top: 50px;
+    width: 50%;
+}
+.footer__logo2{
+    width: 70%;
+    margin-top: 30px;
+}
+.footer__menu{
+    margin-top: 50px;
+    margin-left: 7%;
+}
+.footer__downcase{
+    display: flex;
+    height: 100px;
+}
+.footer_text{
+    margin-left: 15%;
+}
+.footer__text1{
+    margin-top: 35px;
+    color: #00000080;
+}
+.footer__text2 {
+    margin-top:-12px ;
+    color: #00000080;
+}
+.footer__messenger{
+    margin-left: 50%;
+    margin-top: 40px;
+}
